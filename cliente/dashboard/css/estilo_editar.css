@@ -1,0 +1,352 @@
+/* Importando iconos fontello ss */
+
+@import url("../css/css/fontello.css");
+
+/*Estilos para formulario editar*/
+
+.container-editar{
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-editar input, select{
+
+  display: block;
+  width: 450px;
+  padding: 5px;
+  
+}
+
+.container-editar label{
+
+  margin-top: 7px;
+
+}
+
+.container-editar select{
+
+  padding: 9px;
+  
+}
+
+.container-editar img{
+
+  width: 380px;
+  height: 350px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+
+}
+
+.container-editar input[type=submit]{
+
+  transition: 0.5s;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: #94522D;
+  
+}
+
+.container-editar input[type=submit]:hover{
+
+  background-color: #A56642;
+  transition: 0.5s;
+  
+}
+
+
+@media only screen and (max-width: 576px){
+
+  .container-editar input, select, input[type=submit]{
+
+    width: 400px;
+
+  }
+
+}
+
+@media only screen and (max-width: 540px){
+
+  .container-editar input, select, input[type=submit]{
+
+    width: 350px;
+
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+
+  .container-editar input, select, input[type=submit]{
+
+    width: 200px;
+
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .container-editar img{
+
+  width: 200px;
+  height: 200px;
+
+  }
+
+}
+
+@media only screen and (max-width: 360px){
+
+  .container-editar input, select, input[type=submit]{
+
+    width: 190px;
+
+  }
+
+}
+
+@media only screen and (max-width: 360px){
+  .container-editar img{
+
+  width: 150px;
+  height: 150px;
+
+  }
+
+}
+
+@media only screen and (max-width: 280px){
+
+  .container-editar input, select, input[type=submit]{
+
+    width: 120px;
+
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .container-editar img{
+
+  width: 60px;
+  height: 60px;
+
+  }
+
+}
+
+/* Estilos para botones de acciones del crud */
+
+.contenedor-btn_editar{
+
+  text-align: center;
+  width: 5%;
+
+}
+
+.contenedor-btn_eliminar{
+
+  text-align: center;
+  width: 5%;
+  color: white;
+
+}
+
+@media only screen and (max-width: 540px){
+  .contenedor-btn_editar, .contenedor-btn_eliminar, .contenedor-btn_detalle{
+
+    line-height: 50px;
+
+  }
+
+}
+
+.contenedor-btn_detalle{
+
+  text-align: center;
+  width: 5%;
+
+}
+
+
+.btn_editar{
+
+  color:white;
+  text-decoration: none;
+  background-color: #63B480;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  transition: 0.5s;
+  border-radius: 100%;
+
+}
+
+.btn_editar:hover{
+
+  color: white;
+  background-color: #3B945B;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+.btn_eliminar{
+
+  text-decoration: none;
+  background-color: #DD4F4F;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.5s;
+  border-radius: 100%;
+  cursor: pointer;
+  color:  white;
+
+}
+
+.btn_eliminar:hover{
+
+  color: white;
+  background-color: #A74B4B;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+.btn_detalle{
+
+  text-decoration: none;
+  background-color: #7C3A9B;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.5s;
+  border-radius: 100%;
+  cursor: pointer;
+  color:  white;
+
+}
+
+.btn_detalle:hover{
+
+  color: white;
+  background-color: #835399;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+/* Botón para agregar servicio a carrito */
+
+.container-detalleCarrito{
+
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #94522D;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+
+}
+
+.container-detalleCarrito:hover{
+
+  transition: all 0.5s;
+  background-color: #A56642;
+
+}
+
+.container-detalleCarrito a{
+
+  color: white;  
+
+}
+
+.container-detalleCarrito a:hover{
+
+  color: white;
+  text-decoration: none;
+
+}
+
+/* Botones para formulario de confirmar carrito */
+
+.container-confimarCarrito{
+
+  text-align:center;
+  margin-bottom: 10px; 
+  width: auto; 
+  
+}
+
+.container-confimarCarrito .container-btnconfimarCarrito_item{
+
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  transition: all 0.5s;
+  width: 35%;
+
+}
+
+.container-confimarCarrito a{
+
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  transition: all 0.5s;
+  width: 35%;
+  background-color: #8937AD;
+  margin-left: 30px;
+
+}
+
+.container-confimarCarrito a:hover{
+
+  background-color: #9D58BB;
+  text-decoration: none;
+  color: white;  
+
+}
+
+@media only screen and (max-width: 576px){
+.container-confimarCarrito .container-btnconfimarCarrito_item{
+
+    margin-top: 10px;
+    width: 100%;
+
+  }
+
+}
+
+@media only screen and (max-width: 576px){
+.container-confimarCarrito a{
+
+    margin-left: 0px;
+    width: 100%;
+
+  }
+
+}
+
